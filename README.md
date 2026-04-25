@@ -1,6 +1,6 @@
 # Birthday Reminder
 
-Tai Python kalba parašyta gimtadienių priminimo programa, sukurta kaip objektinio programavimo (OOP) kursinis darbas. Programa leidžia vartotojams pridėti, peržiūrėti ir ištrinti gimtadienius, gauti priminimus, bei išsaugoti duomenis faile.
+Tai Python kalba parašyta gimtadienių priminimo programa. Programa leidžia vartotojams pridėti, peržiūrėti ir ištrinti gimtadienius, gauti priminimus, bei išsaugoti duomenis faile.
 
 ---
 
@@ -162,15 +162,15 @@ python -m unittest test_birthday_reminder.py -v
 - Įgyvendintas Singleton projektavimo šablonas, kuris užtikrina vieną sistemos instanciją.
 - Testavimo metu teko atidžiai rašyti `setUp` metodus, nes Singleton išlaiko būseną tarp testų.
 - Sukurti ir paleisti 25 vienetiniai testai, kurie patvirtina pagrindinių funkcijų teisingą veikimą.
-- Duomenų išsaugojimas į CSV failą veikia stabiliai — duomenys išlieka tarp programos paleidimų.
+- Duomenų išsaugojimas į CSV failą veikia gerai — duomenys išlieka tarp programos paleidimų.
 
 ### Išvados
 
-Šio darbo metu buvo sukurta veikianti gimtadienių priminimo sistema, pritaikant objektinio programavimo principus praktikoje.
+Šio darbo metu buvo sukurta veikianti gimtadienių priminimo sistema, pritaikant objektinio programavimo principus.
 
-Buvo sėkmingai įgyvendinti visi keturi OOP principai: enkapsuliacija, paveldėjimas, abstrakcija ir polimorfizmas. Taip pat pritaikytas Singleton projektavimo šablonas ir parodyti kompozicijos bei agregacijos principai.
+Buvo sėkmingai įgyvendinti keturi OOP principai: enkapsuliacija, paveldėjimas, abstrakcija ir polimorfizmas. Taip pat pritaikytas Singleton projektavimo šablonas ir parodyti kompozicijos bei agregacijos principai.
 
-Ateityje šią sistemą būtų galima tobulinti:
+Ateityje manau, jog šią sistemą būtų galima tobulinti:
 
 - naudojant duomenų bazę vietoje CSV failo
 - pridedant el. laiškų siuntimą kai artėja gimtadienis
@@ -184,3 +184,5 @@ Ateityje šią sistemą būtų galima tobulinti:
 - unittest dokumentacija: https://docs.python.org/3/library/unittest.html
 - Dizaino šablonai: https://refactoring.guru/design-patterns/singleton/python/example
 - PEP8: https://pep8.org/
+
+## Autorius : Lukas Gudelis (EIF-25)
