@@ -17,7 +17,7 @@ Sukurti veikiančią gimtadienių valdymo sistemą, kuri pademonstruotų keturis
 3. Atidarykite terminalą tame aplanke ir paleiskite:
 
 ```bash
-python birthday_reminder.py
+py birthday_reminder.py
 ```
 
 ### Kaip naudotis programa?
