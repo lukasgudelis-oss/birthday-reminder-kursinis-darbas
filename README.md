@@ -128,7 +128,7 @@ Programa naudoja Python funkcijas darbui su failais.
 
 - Duomenys rašomi į `birthdays.csv`.
 - Išsaugoma: vartotojo vardas, gimtadienio vardas ir data.
-- Failas automatiškai įkeliamas kiekvieną kartą paleidus programą.
+- Failas automatiškai yra įkeliamas kiekvieną kartą paleidus programą.
 
 ### Testavimas (Testing)
 
@@ -146,7 +146,7 @@ Testavimo metu buvo tikrinamos svarbiausios sistemos dalys:
 
 **Failų operacijos** — tikrinama ar išsaugojus ir vėl nuskaičius duomenys nesidingsta.
 
-Testai vykdomi komanda:
+Testai vykdomi su šią komandą:
 
 ```bash
 python -m unittest test_birthday_reminder.py -v
@@ -174,7 +174,6 @@ Ateityje manau, jog šią sistemą būtų galima tobulinti:
 
 - naudojant duomenų bazę vietoje CSV failo
 - pridedant el. laiškų siuntimą kai artėja gimtadienis
-- įdiegiant grafinę vartotojo sąsają
 
 ---
 
