@@ -74,4 +74,4 @@ class BirthdayManager:
                         user.add_birthday(Birthday(row["name"], birth_date))
             print(f"Ikelta is {filepath}")
         except FileNotFoundError:
-            print("Failas nerastas, pradedam nuo tusto salygo.")
+            print("Failas nerastas, pradedam nuo tuscios salygos.")
